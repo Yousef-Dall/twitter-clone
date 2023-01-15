@@ -24,7 +24,7 @@ const mainTweetFunction = function (tweet) {
             <div class="post__header">
             <div class="user__info">
               <div class="post__avatar">
-                <a href="#"><img src="me.jpeg"></a>
+                <a href="#"><img src="logo.png"></a>
               </div>
               <div class="post__body">
                 <div class="upper__part">
@@ -42,9 +42,9 @@ const mainTweetFunction = function (tweet) {
             </div>
           </div>
           <div class="post__footer">
-                <span class="material-icons repeat-icon" data-id-name="${idNameCounter++}">repeat</span>
-                <span class="material-icons love-icon">favorite_border</span>
-                <span class="material-icons share-icon">publish</span>
+          <i class="fa-solid fa-retweet material-icons repeat-icon"></i>
+          <i class="fa-regular fa-heart material-icons love-icon"></i>
+          <i class="fa-solid fa-arrow-up-from-bracket material-icons share-icon"></i>
           </div>
   `;
   postParent.prepend(newPost);

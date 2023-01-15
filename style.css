@@ -392,3 +392,6 @@
     cursor: pointer;
     margin-left: 20px;
   }
+  .user__info{
+    display: flex;
+  }
