@@ -87,7 +87,7 @@
     border-right: 1px solid var(--twitter-background);
     border-left: 1px solid var(--twitter-background);
     overflow-y: scroll;
-    max-width: 600px;
+    width: 600px;
     margin-right: 20px;
     margin-left: 20px;
   }
